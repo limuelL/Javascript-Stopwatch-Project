@@ -56,7 +56,7 @@ const increment = () => {
 
 setInterval(() => {
     if(running) increment();
-    }, 1);
+    }, 1000);
 
 function startTimer() {
     startTime.innerText = "START";
